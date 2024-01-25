@@ -1,13 +1,13 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 public class TestSdkClass {
-    init() {}
+    public init() {}
     
-    func sum(a: Int, b: Int) -> Int {
+    public func sum(a: Int, b: Int) -> Int {
         return a + b;
     }
 
-    func greet(person: String) -> String {
+    public func greet(person: String) -> String {
         let greeting = "Hello, " + person + "!"
         return greeting
     }
